@@ -21,9 +21,8 @@ $./Run.sh
 
 4.运行成功后文件显示：
 
-在文件夹中生成以当时时间创建的文件夹，并在文件夹中放有这次的测试报告和截图。
-
-测试报告为python unittest 扩展的测试报告，经过改动的HTMLTestRunner，具体改动见如下链接：
+* 在文件夹中生成以当时时间创建的文件夹，并在文件夹中放有这次的测试报告和截图。
+* 测试报告为python unittest 扩展的测试报告，经过改动的HTMLTestRunner，具体改动见如下链接：
 
 [Macaca+HTMLTestRunner测试报告模式修改，基于python unittest 测试框架扩展](http://blog.csdn.net/weixin_39008941/article/details/75222564)
 
