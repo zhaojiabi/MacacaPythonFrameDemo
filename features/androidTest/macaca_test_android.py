@@ -51,17 +51,21 @@ class MacacaTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         print('setUp...')
-        # cls.driver = WebDriver(desired_caps, server_url)
-        # cls.driver.init()
 
     @classmethod
     def tearDownClass(cls):
         print('tearDown...')
-        # cls.driver.quit()
 
     @testcase(desired_caps, server_url)
-    def test_Android_login_001(self):
-        print('case_smoke_001')
+    def test_Android_create_note(self):
+        print('case_001：test_Android_create_note')
+
+        find_element_with_id(self, platform, 'addButtonId').click()
+
+        find_element_with_id(self, platform, 'editTextId').send_keys(get_data_vaule('account', 'type','createText','text'))
+        
+        find_element_with_id(self, platform, 'saveButtonId').click()
+
         is_displayed(find_element_with_name(self, platform, 'loginButtonName'))
 
         # find_element_with_id(self, platform, 'loginButtonId').click()
@@ -104,6 +108,6 @@ class MacacaTest(unittest.TestCase):
 
 def suite():
     suite = unittest.TestSuite()
-    suite.addTest(MacacaTest("case_smoke_001"))
+    suite.addTest(MacacaTest("test_Android_create_note"))
     # suite.addTest(MacacaTest("test_Android_logout_002"))
     return suite

@@ -1,5 +1,6 @@
 # MacacaPythonFrameDemo
 A frame about macaca with python／这是一个关于macaca+python组合的自动化测试框架体系，不考虑具体app的兼容特性，主要是分享这个框架的结构
+使用的是锥子便签作为测试app
 
 1.macaca+python的环境搭建具体见下链接：
 

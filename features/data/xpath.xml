@@ -2,19 +2,11 @@
 <data>
 <id>
     <android>
-        <loginButtonId>com.tuya.smart:id/login</loginButtonId>
-        <usernameInputId>com.tuya.smart:id/user_name</usernameInputId>
-        <userpasswordInputId>com.tuya.smart:id/password</userpasswordInputId>
-        <submitId>com.tuya.smart:id/login_submit</submitId>
-        <devicesAddId>com.tuya.smart:id/ib_add</devicesAddId>
-
+        <addButtonId>com.smartisan.notes:id/add_button</addButtonId>
+        <editTextId>com.smartisan.notes:id/list_rtf_view</editTextId>
+        <saveButtonId>com.smartisan.notes:id/send_finish_button</saveButtonId>
         <!--主tab栏-->
-        <homeCenterId>com.tuya.smart:id/iv_home_center</homeCenterId>
-        <middleCenterId>com.tuya.smart:id/iv_center</middleCenterId>
         <!--<devicesAddId>com.tuya.smart:id/ib_add</devicesAddId>-->
-
-        <headPhonoId>com.tuya.smart:id/iv_head_photo</headPhonoId>
-        <logoutButtonId>com.tuya.smart:id/btn_logout</logoutButtonId>
     </android>
     <ios>
         <loginButtonId>com.tuya.smart:id/login</loginButtonId>
@@ -23,17 +15,17 @@
 </id>
 <xpath>
     <android>
-        <loginbuttonxpath>//*[@resource-id="com.tuya.smart:id/login"]</loginbuttonxpath>
-        <usernameinputxpath>//*[@resource-id="com.tuya.smart:id/user_name"]</usernameinputxpath>
+        <loginbuttonxpath></loginbuttonxpath>
+        <usernameinputxpath></usernameinputxpath>
     </android>
     <ios>
-        <loginbuttonxpath>//*[@resource-id="com.tuya.smart:id/login"]</loginbuttonxpath>
-        <usernameinputxpath>//*[@resource-id="com.tuya.smart:id/user_name"]</usernameinputxpath>
+        <loginbuttonxpath></loginbuttonxpath>
+        <usernameinputxpath></usernameinputxpath>
     </ios>
 </xpath>
 <name>
     <android>
-        <loginButtonName>Log in</loginButtonName>
+        <loginButtonName></loginButtonName>
     </android>
     <ios>
         

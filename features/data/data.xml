@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
-    <account type='phone'>
-        <username>13456825963</username>
-        <password>Kitty12345</password>
+    <account type='createText'>
+        <text>Demo</text>
     </account>
     <account type='email'>
-        <username>zhaojiabi@tuya.com</username>
-        <password>Kitty12345</password>
+        <username></username>
+        <password></password>
     </account>
 </data>
