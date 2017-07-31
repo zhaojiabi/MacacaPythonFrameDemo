@@ -58,7 +58,7 @@ class MacacaTest(unittest.TestCase):
 
     @testcase(desired_caps, server_url)
     def test_Android_create_note(self):
-        print('case_001：test_Android_create_note')
+        print('case_001:test_Android_create_note')
 
         find_element_with_id(self, platform, 'addButtonId').click()
 
@@ -66,7 +66,7 @@ class MacacaTest(unittest.TestCase):
         
         find_element_with_id(self, platform, 'saveButtonId').click()
 
-        is_displayed(find_element_with_name(self, platform, 'loginButtonName'))
+        # is_displayed(find_element_with_name(self, platform, 'loginButtonName'))
 
         # find_element_with_id(self, platform, 'loginButtonId').click()
         

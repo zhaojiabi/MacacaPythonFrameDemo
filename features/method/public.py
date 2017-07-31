@@ -56,11 +56,11 @@ def testcase(desired_caps, server_url):
             except WebDriverException,e:
                 print("WebDriverException")
                 screenshot('screenshot', args[0])
+                traceback.print_exc()
 
                 # test case 结束之后的操作，卸载应用
                 os.system('adb uninstall com.tuya.smart') 
                 args[0].driver.quit()
                 # traceback.print_exc()
-                raise traceback.print_exc()
         return wrapper
     return _testcase
