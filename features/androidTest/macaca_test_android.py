@@ -66,17 +66,7 @@ class MacacaTest(unittest.TestCase):
         
         find_element_with_id(self, platform, 'saveButtonId').click()
 
-        # is_displayed(find_element_with_name(self, platform, 'loginButtonName'))
-
-        # find_element_with_id(self, platform, 'loginButtonId').click()
-        
-        # find_element_with_id(self, platform, 'usernameInputId').send_keys(get_data_vaule('account', 'type','phone','username'))
-        
-        # find_element_with_id(self, platform, 'userpasswordInputId').send_keys(get_data_vaule('account', 'type','phone','password'))
-        
-        # find_element_with_id(self, platform, 'submitId').click()
-
-        # find_element_with_id(self, platform, 'devicesAddId').click()
+        is_displayed(find_element_with_name(self, platform, 'loginButtonName'))
         
 
     @testcase(desired_caps, server_url)
@@ -85,24 +75,11 @@ class MacacaTest(unittest.TestCase):
 
         MacacaTest.login_test(self)
 
-        find_element_with_id(self, platform, 'homeCenterId').click()
-        
-        find_element_with_id(self, platform, 'headPhonoId').click()
-
-        find_element_with_id(self, platform, 'logoutButtonId').click()
 
 
     def login_test(self):
 
-        find_element_with_id(self, platform, 'loginButtonId').click()
-
-        find_element_with_id(self, platform, 'usernameInputId').send_keys(get_data_vaule('account', 'type','phone','username'))
         
-        find_element_with_id(self, platform, 'userpasswordInputId').send_keys(get_data_vaule('account', 'type','phone','password'))
-        
-        find_element_with_id(self, platform, 'submitId').click()
-
-        find_element_with_id(self, platform, 'devicesAddId').click()
 
 
 
